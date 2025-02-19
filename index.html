@@ -12,11 +12,45 @@
     <div class="menu">
       <img class="img" src="./img/autronaut.jpg" alt="" />
       <ul class="list">
-        <li class="item"><a href="https://www.youtube.com/" class="link"> item 1</a></li>
+        <li class="item">
+          <a href="https://www.youtube.com/" class="link"> item 1</a>
+        </li>
         <li class="item"><a href="" class="link"> item 2</a></li>
         <li class="item"><a href="" class="link"> item 3</a></li>
         <li class="item"><a href="" class="link"> item 4</a></li>
+        <button class="btn">
+          <a href="https://www.youtube.com/"> hola</a>
+        </button>
       </ul>
+
+      <di id="container" class="container">
+        <input
+          type="number"
+          id="num1"
+          class="num1"
+          placeholder=" ingrese total de dinero de dia"
+        />
+        <input
+          type="number"
+          id="num2"
+          class="num2"
+          placeholder=" ingres porcentaje"
+        />
+        <input
+          type="number"
+          id="trabajadores"
+          class="num3"
+          placeholder=" ingrese numero de trabajadores"
+        />
+        <button onclick="sumar()" id="btn" class="btn">sumar</button>
+
+        <div class="result" id="result"></div>
+        <div class="trabajadores" id="mostrarTrabajadores"></div>
+        <div class="porcentaje" id="mostrarPorcentaje"></div>
+        <div class="propina" id="mostrarPropina"></div>
+      </div>
+
+      <script src="./scripts.js"></script>
     </div>
   </body>
 </html>
